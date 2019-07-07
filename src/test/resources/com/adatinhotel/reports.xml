@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="160.744781">
+<testcase classname="Adactin hotle application end to end testing" name="Verify the login functionality of the application" time="4.4244">
+<system-out><![CDATA[Given User launch the adatin hotel application..............................passed
+And User enter the email address "vinothlatha" in the authentication page...passed
+And User enter the password "viha123" in the authentication page............passed
+And User click on the signIn button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin hotle application end to end testing" name="To check correct total price is being calculated as “price per night*no of days*no of rooms in Book a hotel page" time="156.320381">
+<failure message="java.lang.RuntimeException&#13;&#10;&#9;at com.baseclass.test.BaseclassMaven.waitforElementVisiblity(BaseclassMaven.java:80)&#13;&#10;&#9;at com.baseclass.test.BaseclassMaven.getAttributeOfTheElement(BaseclassMaven.java:302)&#13;&#10;&#9;at com.cucumber.stepdefinition.StepDefinition.verify_that_total_price_is_being_calculated_as_price_pernight_no_ofrooms_no_of_days_GST(StepDefinition.java:225)&#13;&#10;&#9;at ✽.Then Verify that total-price is being calculated as (price-pernight*no-ofrooms*no-of-days + 10% GST”)(adatinhotelendtoend2.feature:52)&#13;&#10;"><![CDATA[Given user select option the location as "Melbourne"........................passed
+And user select option the hotel as "Hotel Sunshine"........................passed
+And user select option the roomtype as "Standard"...........................passed
+And user select option the noofroom as "2 - Two"............................passed
+And user select option the checkin date as "02/07/2019".....................passed
+And user select the option checkoutdate as "03/07/2019".....................passed
+And user enter the no of adult "1 - One"....................................passed
+And user enter th no of children "1 - One"..................................passed
+And user Enter the seach button.............................................passed
+And user select the hotel...................................................passed
+And user click on the continue button.......................................passed
+And user enter the first name "latha" in htoel booking page.................passed
+And user enter the last name "vinoth" in hotel booking page.................passed
+And user enter the billing adrress "villivakkam" in hotel booking page......passed
+And user enter the credit card no "9587364587651234"in the hotel booking page.passed
+And user select the credit card type "Master Card" in htoel booking page....passed
+And user select the expiry month "April" in the hotel booking page..........passed
+And user select the expiry year "2022" in the hotel booking page............passed
+And user enter the cvv number "123" in the hotel booking page...............passed
+And user click on the booknow button........................................passed
+Then Verify that total-price is being calculated as (price-pernight*no-ofrooms*no-of-days + 10% GST”).failed
+
+StackTrace:
+java.lang.RuntimeException
+	at com.baseclass.test.BaseclassMaven.waitforElementVisiblity(BaseclassMaven.java:80)
+	at com.baseclass.test.BaseclassMaven.getAttributeOfTheElement(BaseclassMaven.java:302)
+	at com.cucumber.stepdefinition.StepDefinition.verify_that_total_price_is_being_calculated_as_price_pernight_no_ofrooms_no_of_days_GST(StepDefinition.java:225)
+	at ✽.Then Verify that total-price is being calculated as (price-pernight*no-ofrooms*no-of-days + 10% GST”)(adatinhotelendtoend2.feature:52)
+]]></failure>
+</testcase>
+</testsuite>
