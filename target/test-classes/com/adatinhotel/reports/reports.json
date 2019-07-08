@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2165825000,
+              "duration": 3590498300,
               "status": "passed"
             },
             "line": 6,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1071764200,
+              "duration": 1237534800,
               "status": "passed"
             },
             "line": 7,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 293488100,
+              "duration": 298807200,
               "status": "passed"
             },
             "line": 8,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 893323100,
+              "duration": 1688929300,
               "status": "passed"
             },
             "line": 9,
@@ -98,7 +98,7 @@
         "steps": [
           {
             "result": {
-              "duration": 242686300,
+              "duration": 252322600,
               "status": "passed"
             },
             "line": 32,
@@ -116,7 +116,7 @@
           },
           {
             "result": {
-              "duration": 199980700,
+              "duration": 213032100,
               "status": "passed"
             },
             "line": 33,
@@ -134,7 +134,7 @@
           },
           {
             "result": {
-              "duration": 194145100,
+              "duration": 225447200,
               "status": "passed"
             },
             "line": 34,
@@ -152,7 +152,7 @@
           },
           {
             "result": {
-              "duration": 198901000,
+              "duration": 220992700,
               "status": "passed"
             },
             "line": 35,
@@ -170,7 +170,7 @@
           },
           {
             "result": {
-              "duration": 387511700,
+              "duration": 419639800,
               "status": "passed"
             },
             "line": 36,
@@ -188,7 +188,7 @@
           },
           {
             "result": {
-              "duration": 381853800,
+              "duration": 390132400,
               "status": "passed"
             },
             "line": 37,
@@ -206,7 +206,7 @@
           },
           {
             "result": {
-              "duration": 166366800,
+              "duration": 153004400,
               "status": "passed"
             },
             "line": 38,
@@ -224,7 +224,7 @@
           },
           {
             "result": {
-              "duration": 218502000,
+              "duration": 218981300,
               "status": "passed"
             },
             "line": 39,
@@ -242,7 +242,7 @@
           },
           {
             "result": {
-              "duration": 774779700,
+              "duration": 1298350700,
               "status": "passed"
             },
             "line": 40,
@@ -254,7 +254,7 @@
           },
           {
             "result": {
-              "duration": 219119200,
+              "duration": 204783700,
               "status": "passed"
             },
             "line": 41,
@@ -266,7 +266,7 @@
           },
           {
             "result": {
-              "duration": 744816200,
+              "duration": 1460282300,
               "status": "passed"
             },
             "line": 42,
@@ -278,7 +278,7 @@
           },
           {
             "result": {
-              "duration": 232499700,
+              "duration": 248275900,
               "status": "passed"
             },
             "line": 43,
@@ -296,7 +296,7 @@
           },
           {
             "result": {
-              "duration": 207062500,
+              "duration": 187288300,
               "status": "passed"
             },
             "line": 44,
@@ -314,7 +314,7 @@
           },
           {
             "result": {
-              "duration": 243219200,
+              "duration": 224683900,
               "status": "passed"
             },
             "line": 45,
@@ -332,7 +332,7 @@
           },
           {
             "result": {
-              "duration": 279164200,
+              "duration": 259086300,
               "status": "passed"
             },
             "line": 46,
@@ -350,7 +350,7 @@
           },
           {
             "result": {
-              "duration": 210497200,
+              "duration": 181622500,
               "status": "passed"
             },
             "line": 47,
@@ -368,7 +368,7 @@
           },
           {
             "result": {
-              "duration": 194880600,
+              "duration": 197438000,
               "status": "passed"
             },
             "line": 48,
@@ -386,7 +386,7 @@
           },
           {
             "result": {
-              "duration": 195492100,
+              "duration": 194914400,
               "status": "passed"
             },
             "line": 49,
@@ -404,7 +404,7 @@
           },
           {
             "result": {
-              "duration": 181098900,
+              "duration": 176778200,
               "status": "passed"
             },
             "line": 50,
@@ -422,7 +422,7 @@
           },
           {
             "result": {
-              "duration": 163183600,
+              "duration": 140270800,
               "status": "passed"
             },
             "line": 51,
@@ -434,9 +434,8 @@
           },
           {
             "result": {
-              "duration": 150684620300,
-              "error_message": "java.lang.RuntimeException\r\n\tat com.baseclass.test.BaseclassMaven.waitforElementVisiblity(BaseclassMaven.java:80)\r\n\tat com.baseclass.test.BaseclassMaven.getAttributeOfTheElement(BaseclassMaven.java:302)\r\n\tat com.cucumber.stepdefinition.StepDefinition.verify_that_total_price_is_being_calculated_as_price_pernight_no_ofrooms_no_of_days_GST(StepDefinition.java:225)\r\n\tat ✽.Then Verify that total-price is being calculated as (price-pernight*no-ofrooms*no-of-days + 10% GST”)(adatinhotelendtoend2.feature:52)\r\n",
-              "status": "failed"
+              "duration": 1638800,
+              "status": "passed"
             },
             "line": 52,
             "name": "Verify that total-price is being calculated as (price-pernight*no-ofrooms*no-of-days + 10% GST”)",

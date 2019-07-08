@@ -213,31 +213,87 @@ Assert.assertEquals("Melbourne", getAttributeOfTheElement(po.getSp().getHotelloc
 	    
 	    clickOnElement(po.getBp().getLogout());
 	}
-
+//tc109
 	@Then("^Check the details, click on logout and verify we have been logged out of the application\\.$")
 	public void check_the_details_click_on_logout_and_verify_we_have_been_logged_out_of_the_application() throws Throwable {
 	    Assert.assertEquals("You have successfully logged out. Click here to login again",getTextOfTheElement(po.getBp().getGetlogutfunction()));
 	    
 	}
 	
+	//@Tc110
 	@Then("^Verify that total-price is being calculated as \\(price-pernight\\*no-ofrooms\\*no-of-days \\+ (\\d+)% GST”\\)$")
 	public void verify_that_total_price_is_being_calculated_as_price_pernight_no_ofrooms_no_of_days_GST(int arg1) throws Throwable {
-		 System.out.println(getAttributeOfTheElement(po.getSp().getTotalprice()));   
-         Assert.assertEquals("AUD $ 185", getAttributeOfTheElement(po.getSp().getTotalprice()));
+	    
+	    
 	}
 
 	@Then("^VVerify that total-price is  being calculated as \\(priceper- night\\*no-ofrooms\\*no-of-days\\)$")
 	public void vverify_that_total_price_is_being_calculated_as_priceper_night_no_ofrooms_no_of_days() throws Throwable {
-	   
+	    
+	    
 	}
 
 	@Then("^Verify that total-price final bill is being calculated as \\(price-pernight\\*no-ofrooms\\*no-of-days$")
 	public void verify_that_total_price_final_bill_is_being_calculated_as_price_pernight_no_ofrooms_no_of_days() throws Throwable {
-	
+	    
+	    
+	}
+
+	@Then("^Verify that total-price is being calculated as \\(priceper-night\\*no-ofrooms\\*no-of-days$")
+	public void verify_that_total_price_is_being_calculated_as_priceper_night_no_ofrooms_no_of_days() throws Throwable {
+	    
+	    
+	}
+
+	@Then("^Verify that total-price calculated as \\(price-pernight\\*no-ofrooms\\*no-of-days$")
+	public void verify_that_total_price_calculated_as_price_pernight_no_ofrooms_no_of_days() throws Throwable {
+	    
+	    
+	}
+
+	@Then("^check and verify that total-price is being calculated as \\(price-pernight\\*no-ofrooms\\*no-of-days$")
+	public void check_and_verify_that_total_price_is_being_calculated_as_price_pernight_no_ofrooms_no_of_days() throws Throwable {
+	    
+	    
+	}
+
+	@Then("^Verify that the details are not editable$")
+	public void verify_that_the_details_are_not_editable() throws Throwable {
+	    
+	    
+	}
+
+	@Then("^Verify that the details are reflected correctly as per the booking$")
+	public void verify_that_the_details_are_reflected_correctly_as_per_the_booking() throws Throwable {
+	    
+	    
+	}
+
+	@Then("^Verify that the relevant details are displayed$")
+	public void verify_that_the_relevant_details_are_displayed() throws Throwable {
+	    
+	    
+	}
+
+	@Then("^Verify all the details of order number are correct as entered during saving order$")
+	public void verify_all_the_details_of_order_number_are_correct_as_entered_during_saving_order() throws Throwable {
+	    
+	    
+	}
+
+	@Then("^Verify that order number is cancelled and now longer exists in Booked Itinerary page$")
+	public void verify_that_order_number_is_cancelled_and_now_longer_exists_in_Booked_Itinerary_page() throws Throwable {
+	    
+	    
+	}
+
+	@Then("^Click on booked itinerary button and verify that application directs to booked itinerary form$")
+	public void click_on_booked_itinerary_button_and_verify_that_application_directs_to_booked_itinerary_form() throws Throwable {
+	    
+	    
 	}
 	
-
-
+	
 }
 
 

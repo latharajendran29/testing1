@@ -44,7 +44,7 @@ formatter.match({
   "location": "StepDefinition.user_launch_the_adatin_hotel_application()"
 });
 formatter.result({
-  "duration": 2165825000,
+  "duration": 3590498300,
   "status": "passed"
 });
 formatter.match({
@@ -57,7 +57,7 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_email_address_in_the_authentication_page(String)"
 });
 formatter.result({
-  "duration": 1071764200,
+  "duration": 1237534800,
   "status": "passed"
 });
 formatter.match({
@@ -70,14 +70,14 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_password_in_the_authentication_page(String)"
 });
 formatter.result({
-  "duration": 293488100,
+  "duration": 298807200,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_on_the_signIn_button()"
 });
 formatter.result({
-  "duration": 893323100,
+  "duration": 1688929300,
   "status": "passed"
 });
 formatter.uri("adatinhotelendtoend2.feature");
@@ -223,7 +223,7 @@ formatter.match({
   "location": "StepDefinition.user_select_option_the_location_as(String)"
 });
 formatter.result({
-  "duration": 242686300,
+  "duration": 252322600,
   "status": "passed"
 });
 formatter.match({
@@ -236,7 +236,7 @@ formatter.match({
   "location": "StepDefinition.user_select_option_the_hotel_as(String)"
 });
 formatter.result({
-  "duration": 199980700,
+  "duration": 213032100,
   "status": "passed"
 });
 formatter.match({
@@ -249,7 +249,7 @@ formatter.match({
   "location": "StepDefinition.user_select_option_the_roomtype_as(String)"
 });
 formatter.result({
-  "duration": 194145100,
+  "duration": 225447200,
   "status": "passed"
 });
 formatter.match({
@@ -262,7 +262,7 @@ formatter.match({
   "location": "StepDefinition.user_select_option_the_noofroom_as(String)"
 });
 formatter.result({
-  "duration": 198901000,
+  "duration": 220992700,
   "status": "passed"
 });
 formatter.match({
@@ -275,7 +275,7 @@ formatter.match({
   "location": "StepDefinition.user_select_option_the_checkin_date_as(String)"
 });
 formatter.result({
-  "duration": 387511700,
+  "duration": 419639800,
   "status": "passed"
 });
 formatter.match({
@@ -288,7 +288,7 @@ formatter.match({
   "location": "StepDefinition.user_select_the_option_checkoutdate_as(String)"
 });
 formatter.result({
-  "duration": 381853800,
+  "duration": 390132400,
   "status": "passed"
 });
 formatter.match({
@@ -301,7 +301,7 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_no_of_adult(String)"
 });
 formatter.result({
-  "duration": 166366800,
+  "duration": 153004400,
   "status": "passed"
 });
 formatter.match({
@@ -314,28 +314,28 @@ formatter.match({
   "location": "StepDefinition.user_enter_th_no_of_children(String)"
 });
 formatter.result({
-  "duration": 218502000,
+  "duration": 218981300,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_Enter_the_seach_button()"
 });
 formatter.result({
-  "duration": 774779700,
+  "duration": 1298350700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_select_the_hotel()"
 });
 formatter.result({
-  "duration": 219119200,
+  "duration": 204783700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_on_the_continue_button()"
 });
 formatter.result({
-  "duration": 744816200,
+  "duration": 1460282300,
   "status": "passed"
 });
 formatter.match({
@@ -348,7 +348,7 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_first_name_in_htoel_booking_page(String)"
 });
 formatter.result({
-  "duration": 232499700,
+  "duration": 248275900,
   "status": "passed"
 });
 formatter.match({
@@ -360,107 +360,71 @@ formatter.match({
   ],
   "location": "StepDefinition.user_enter_the_last_name_in_hotel_booking_page(String)"
 });
-formatter.result({
-  "duration": 207062500,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "villivakkam",
-      "offset": 32
-    }
-  ],
-  "location": "StepDefinition.user_enter_the_billing_adrress_in_hotel_booking_page(String)"
-});
-formatter.result({
-  "duration": 243219200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "9587364587651234",
-      "offset": 31
-    }
-  ],
-  "location": "StepDefinition.user_enter_the_credit_card_no_in_the_hotel_booking_page(String)"
-});
-formatter.result({
-  "duration": 279164200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Master Card",
-      "offset": 34
-    }
-  ],
-  "location": "StepDefinition.user_select_the_credit_card_type_in_htoel_booking_page(String)"
-});
-formatter.result({
-  "duration": 210497200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "April",
-      "offset": 30
-    }
-  ],
-  "location": "StepDefinition.user_select_the_expiry_month_in_the_hotel_booking_page(String)"
-});
-formatter.result({
-  "duration": 194880600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "2022",
-      "offset": 29
-    }
-  ],
-  "location": "StepDefinition.user_select_the_expiry_year_in_the_hotel_booking_page(String)"
-});
-formatter.result({
-  "duration": 195492100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "123",
-      "offset": 27
-    }
-  ],
-  "location": "StepDefinition.user_enter_the_cvv_number_in_the_hotel_booking_page(String)"
-});
-formatter.result({
-  "duration": 181098900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefinition.user_click_on_the_booknow_button()"
-});
-formatter.result({
-  "duration": 163183600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "10",
-      "offset": 87
-    }
-  ],
-  "location": "StepDefinition.verify_that_total_price_is_being_calculated_as_price_pernight_no_ofrooms_no_of_days_GST(int)"
-});
-formatter.result({
-  "duration": 150684620300,
-  "error_message": "java.lang.RuntimeException\r\n\tat com.baseclass.test.BaseclassMaven.waitforElementVisiblity(BaseclassMaven.java:80)\r\n\tat com.baseclass.test.BaseclassMaven.getAttributeOfTheElement(BaseclassMaven.java:302)\r\n\tat com.cucumber.stepdefinition.StepDefinition.verify_that_total_price_is_being_calculated_as_price_pernight_no_ofrooms_no_of_days_GST(StepDefinition.java:225)\r\n\tat ✽.Then Verify that total-price is being calculated as (price-pernight*no-ofrooms*no-of-days + 10% GST”)(adatinhotelendtoend2.feature:52)\r\n",
+formatter.rformatter.result({
+  "duration": 150724467500,
+  "error_message": "java.lang.RuntimeException\r\n\tat com.baseclass.test.BaseclassMaven.waitforElementVisiblity(BaseclassMaven.java:80)\r\n\tat com.baseclass.test.BaseclassMaven.getTextOfTheElement(BaseclassMaven.java:295)\r\n\tat com.cucumber.stepdefinition.StepDefinition.verify_that_application_throws_error_message(StepDefinition.java:105)\r\n\tat ✽.Then Verify that application throws error message(adatinhotelendtoend.feature:29)\r\n",
   "status": "failed"
 });
+formatter.scenario({
+  "line": 31,
+  "name": "To verify whether locations in Select Hotel page are displayed according to the location selected in Search Hotel",
+  "description": "",
+  "id": "adactin-hotle-application-end-to-end-testing;to-verify-whether-locations-in-select-hotel-page-are-displayed-according-to-the-location-selected-in-search-hotel",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 30,
+      "name": "@TC_104"
+    }
+  ]
+});
+formatter.step({
+  "line": 32,
+  "name": "user select option the location as \"Melbourne\"",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 33,
+  "name": "user select option the hotel as \"Hotel Sunshine\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 34,
+  "name": "user select option the roomtype as \"Standard\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "user select option the noofroom as \"2 - Two\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "user select option the checkin date as \"01/07/2019\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 37,
+  "name": "user select the option checkoutdate as \"02/07/2019\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 38,
+  "name": "user Enter the seach button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 39,
+  "name": "user verify whether Location displayed in Select Hotel is same as location selected in search hotel form.",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Melbourne",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinition.user_select_option_the_location_as(String)"
 });

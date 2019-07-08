@@ -118,8 +118,195 @@ And user select the expiry month "April" in the hotel booking page
 And user select the expiry year "2022" in the hotel booking page
 And user enter the cvv number "123" in the hotel booking page
 And user click on the booknow button
-Then  Verify that total-price is being calculated as (priceper-night*no-ofrooms*no-of-days
+Then Verify that total-price is being calculated as (priceper-night*no-ofrooms*no-of-days
+@TC_114
+Scenario: Verify Order number is generated in booking confirmation page
+Given user select option the location as "Melbourne" 
+And user select option the hotel as "Hotel Sunshine"
+And user select option the roomtype as "Standard"
+And user select option the noofroom as "2 - Two"
+And user select option the checkin date as "02/07/2019"
+And user select the option checkoutdate as "03/07/2019"
+And user enter the no of adult "1 - One"
+And user enter th no of children "1 - One"
+And user Enter the seach button
+And user select the hotel
+And user click on the continue button
+And user enter the first name "latha" in htoel booking page
+And user enter the last name "vinoth" in hotel booking page
+And user enter the billing adrress "villivakkam" in hotel booking page
+And user enter the credit card no "9587364587651234"in the hotel booking page
+And user select the credit card type "Master Card" in htoel booking page
+And user select the expiry month "April" in the hotel booking page
+And user select the expiry year "2022" in the hotel booking page
+And user enter the cvv number "123" in the hotel booking page
+And user click on the booknow button
+Then Verify that total-price calculated as (price-pernight*no-ofrooms*no-of-days
+@TC_114
+Scenario: Verify Order number is generated in booking confirmation page
+Given user select option the location as "Melbourne" 
+And user select option the hotel as "Hotel Sunshine"
+And user select option the roomtype as "Standard"
+And user select option the noofroom as "2 - Two"
+And user select option the checkin date as "02/07/2019"
+And user select the option checkoutdate as "03/07/2019"
+And user enter the no of adult "1 - One"
+And user enter th no of children "1 - One"
+And user Enter the seach button
+And user select the hotel
+And user click on the continue button
+And user enter the first name "latha" in htoel booking page
+And user enter the last name "vinoth" in hotel booking page
+And user enter the billing adrress "villivakkam" in hotel booking page
+And user enter the credit card no "9587364587651234"in the hotel booking page
+And user select the credit card type "Master Card" in htoel booking page
+And user select the expiry month "April" in the hotel booking page
+And user select the expiry year "2022" in the hotel booking page
+And user enter the cvv number "123" in the hotel booking page
+And user click on the booknow button
+Then  check and verify that total-price is being calculated as (price-pernight*no-ofrooms*no-of-days
+@TC_115
+Scenario: To verify whether the booked itinerary details are not editable.
+Given user select option the location as "Melbourne" 
+And user select option the hotel as "Hotel Sunshine"
+And user select option the roomtype as "Standard"
+And user select option the noofroom as "2 - Two"
+And user select option the checkin date as "02/07/2019"
+And user select the option checkoutdate as "03/07/2019"
+And user enter the no of adult "1 - One"
+And user enter th no of children "1 - One"
+And user Enter the seach button
+And user select the hotel
+And user click on the continue button
+And user enter the first name "latha" in htoel booking page
+And user enter the last name "vinoth" in hotel booking page
+And user enter the billing adrress "villivakkam" in hotel booking page
+And user enter the credit card no "9587364587651234"in the hotel booking page
+And user select the credit card type "Master Card" in htoel booking page
+And user select the expiry month "April" in the hotel booking page
+And user select the expiry year "2022" in the hotel booking page
+And user enter the cvv number "123" in the hotel booking page
+And user click on the booknow button
+Then  Verify that the details are not editable
+@TC_116
+Scenario: To check whether the booked itinerary reflects the correct information in line with the booking.
+Given user select option the location as "Melbourne" 
+And user select option the hotel as "Hotel Sunshine"
+And user select option the roomtype as "Standard"
+And user select option the noofroom as "2 - Two"
+And user select option the checkin date as "02/07/2019"
+And user select the option checkoutdate as "03/07/2019"
+And user enter the no of adult "1 - One"
+And user enter th no of children "1 - One"
+And user Enter the seach button
+And user select the hotel
+And user click on the continue button
+And user enter the first name "latha" in htoel booking page
+And user enter the last name "vinoth" in hotel booking page
+And user enter the billing adrress "villivakkam" in hotel booking page
+And user enter the credit card no "9587364587651234"in the hotel booking page
+And user select the credit card type "Master Card" in htoel booking page
+And user select the expiry month "April" in the hotel booking page
+And user select the expiry year "2022" in the hotel booking page
+And user enter the cvv number "123" in the hotel booking page
+And user click on the booknow button
+Then Verify that the details are reflected correctly as per the booking
+@TC_117
+Scenario: To check “search order id” query is working and displaying the relevant detail
+Given user select option the location as "Melbourne" 
+And user select option the hotel as "Hotel Sunshine"
+And user select option the roomtype as "Standard"
+And user select option the noofroom as "2 - Two"
+And user select option the checkin date as "02/07/2019"
+And user select the option checkoutdate as "03/07/2019"
+And user enter the no of adult "1 - One"
+And user enter th no of children "1 - One"
+And user Enter the seach button
+And user select the hotel
+And user click on the continue button
+And user enter the first name "latha" in htoel booking page
+And user enter the last name "vinoth" in hotel booking page
+And user enter the billing adrress "villivakkam" in hotel booking page
+And user enter the credit card no "9587364587651234"in the hotel booking page
+And user select the credit card type "Master Card" in htoel booking page
+And user select the expiry month "April" in the hotel booking page
+And user select the expiry year "2022" in the hotel booking page
+And user enter the cvv number "123" in the hotel booking page
+And user click on the booknow button
+Then Verify that the relevant details are displayed
+@TC_118
+Scenario: Verify that all the details of newly generated order number in booked itinerary page are correct and match with data during booking.
+Given user select option the location as "Melbourne" 
+And user select option the hotel as "Hotel Sunshine"
+And user select option the roomtype as "Standard"
+And user select option the noofroom as "2 - Two"
+And user select option the checkin date as "02/07/2019"
+And user select the option checkoutdate as "03/07/2019"
+And user enter the no of adult "1 - One"
+And user enter th no of children "1 - One"
+And user Enter the seach button
+And user select the hotel
+And user click on the continue button
+And user enter the first name "latha" in htoel booking page
+And user enter the last name "vinoth" in hotel booking page
+And user enter the billing adrress "villivakkam" in hotel booking page
+And user enter the credit card no "9587364587651234"in the hotel booking page
+And user select the credit card type "Master Card" in htoel booking page
+And user select the expiry month "April" in the hotel booking page
+And user select the expiry year "2022" in the hotel booking page
+And user enter the cvv number "123" in the hotel booking page
+And user click on the booknow button
+Then Verify all the details of order number are correct as entered during saving order
+@TC_119
+Scenario: To verify that the order gets cancelled after click on Cancel order number link
+
+Given user select option the location as "Melbourne" 
+And user select option the hotel as "Hotel Sunshine"
+And user select option the roomtype as "Standard"
+And user select option the noofroom as "2 - Two"
+And user select option the checkin date as "02/07/2019"
+And user select the option checkoutdate as "03/07/2019"
+And user enter the no of adult "1 - One"
+And user enter th no of children "1 - One"
+And user Enter the seach button
+And user select the hotel
+And user click on the continue button
+And user enter the first name "latha" in htoel booking page
+And user enter the last name "vinoth" in hotel booking page
+And user enter the billing adrress "villivakkam" in hotel booking page
+And user enter the credit card no "9587364587651234"in the hotel booking page
+And user select the credit card type "Master Card" in htoel booking page
+And user select the expiry month "April" in the hotel booking page
+And user select the expiry year "2022" in the hotel booking page
+And user enter the cvv number "123" in the hotel booking page
+And user click on the booknow button
+Then Verify that order number is cancelled and now longer exists in Booked Itinerary page
+@TC_120
+Scenario: To verify that the order gets cancelled after click on Cancel order number link
+
+Given user select option the location as "Melbourne" 
+And user select option the hotel as "Hotel Sunshine"
+And user select option the roomtype as "Standard"
+And user select option the noofroom as "2 - Two"
+And user select option the checkin date as "02/07/2019"
+And user select the option checkoutdate as "03/07/2019"
+And user enter the no of adult "1 - One"
+And user enter th no of children "1 - One"
+And user Enter the seach button
+And user select the hotel
+And user click on the continue button
+And user enter the first name "latha" in htoel booking page
+And user enter the last name "vinoth" in hotel booking page
+And user enter the billing adrress "villivakkam" in hotel booking page
+And user enter the credit card no "9587364587651234"in the hotel booking page
+And user select the credit card type "Master Card" in htoel booking page
+And user select the expiry month "April" in the hotel booking page
+And user select the expiry year "2022" in the hotel booking page
+And user enter the cvv number "123" in the hotel booking page
+And user click on the booknow button
+Then Click on booked itinerary button and verify that application directs to booked itinerary form
 
 
-)
+
+
 
