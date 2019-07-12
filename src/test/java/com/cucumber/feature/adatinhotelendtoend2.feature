@@ -187,6 +187,7 @@ And user select the expiry month "April" in the hotel booking page
 And user select the expiry year "2022" in the hotel booking page
 And user enter the cvv number "123" in the hotel booking page
 And user click on the booknow button
+And Click on My itinerary button
 Then  Verify that the details are not editable
 @TC_116
 Scenario: To check whether the booked itinerary reflects the correct information in line with the booking.

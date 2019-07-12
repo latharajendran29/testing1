@@ -20,7 +20,7 @@ import cucumber.api.junit.Cucumber;
 		
 		//@TC_102,@TC_103,@TC_104,@TC_105,@TC_106,@TC_107,@TC_108,@TC_109,@TC_110,@TC_111,@TC_112,@TC_113,@TC_114,@TC_115,@TC_116,@TC_117,@TC_118,@TC_119,@TC_120
 		features = "src\\test\\java\\com\\cucumber\\feature", glue = "com.cucumber.stepdefinition" ,
-tags= {"@TC_101,@TC_110"},
+tags= {"@TC_101,@TC_115"},
 dryRun=false,strict=false,monochrome=true,plugin =  {
 		"com.cucumber.listener.ExtentCucumberFormatter:src\\test\\resources\\com\\adatinhotel\\reports\\extendreport.html"
 ,		

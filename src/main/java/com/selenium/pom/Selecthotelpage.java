@@ -3,6 +3,7 @@ package com.selenium.pom;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
 public class Selecthotelpage {
@@ -117,5 +118,41 @@ private WebElement address;
 	public WebElement getBooknowbutton() {
 		return booknowbutton;
 	}
-	
+@FindBy(id="my_itinerary")
+private WebElement mylitineray;
+@FindBy(xpath="//input[@onkeypress='return Nothingonly(event)']")
+private WebElement nothingreturn;
+public WebElement getMylitineray() {
+	return mylitineray;
+}
+public WebElement getNothingreturn() {
+	return nothingreturn;
+}
+@FindBy(id="order_no")
+private WebElement bookingconfirmorderno;
+public WebElement getBookingconfirmorderno() {
+	return bookingconfirmorderno;
+}
+@FindBy(id="order_id_text")
+private WebElement serachroderid;
+public WebElement getSerachroderid() {
+	return serachroderid;
+}
+
+@FindBy(id="search_hotel_id")
+private WebElement go_button;
+
+public WebElement getGo_button() {
+	return go_button;
+}
+
+@FindBy(xpath="(//input[@type='checkbox'])[2]")
+private WebElement checkbox;
+
+public WebElement getCheckbox() {
+	return checkbox;
+}
+
+
+
 }

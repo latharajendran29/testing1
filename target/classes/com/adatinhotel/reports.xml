@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="13.684736">
-<testcase classname="Adactin hotle application end to end testing" name="Verify the login functionality of the application" time="6.81577">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="2" time="74.333813">
+<testcase classname="Adactin hotle application end to end testing" name="Verify the login functionality of the application" time="7.234827">
 <system-out><![CDATA[Given User launch the adatin hotel application..............................passed
 And User enter the email address "vinothlatha" in the authentication page...passed
 And User enter the password "viha123" in the authentication page............passed
 And User click on the signIn button.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Adactin hotle application end to end testing" name="To check correct total price is being calculated as “price per night*no of days*no of rooms in Book a hotel page" time="6.868966">
-<system-out><![CDATA[Given user select option the location as "Melbourne"........................passed
+<testcase classname="Adactin hotle application end to end testing" name="To verify whether the booked itinerary details are not editable." time="67.098986">
+<skipped><![CDATA[Given user select option the location as "Melbourne"........................passed
 And user select option the hotel as "Hotel Sunshine"........................passed
 And user select option the roomtype as "Standard"...........................passed
 And user select option the noofroom as "2 - Two"............................passed
@@ -28,7 +28,9 @@ And user select the expiry month "April" in the hotel booking page..........pass
 And user select the expiry year "2022" in the hotel booking page............passed
 And user enter the cvv number "123" in the hotel booking page...............passed
 And user click on the booknow button........................................passed
-Then Verify that total-price is being calculated as (price-pernight*no-ofrooms*no-of-days + 10% GST”).passed
-]]></system-out>
+And Click on My itinerary button............................................passed
+Then Verify that the details are not editable...............................undefined
+]]></skipped>
 </testcase>
 </testsuite>
+>

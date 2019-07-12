@@ -1,8 +1,11 @@
 package com.cucumber.stepdefinition;
 
+import java.util.List;
+
+import org.apache.commons.math3.stat.inference.GTest;
 import org.junit.Assert;
-
-
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 import com.baseclass.test.BaseclassMaven;
 
@@ -207,7 +210,7 @@ Assert.assertEquals("Melbourne", getAttributeOfTheElement(po.getSp().getHotelloc
 		clickOnElement(po.getSp().getBooknow());
 	    
 	}
-
+/*
 	@Given("^user check the details, and logout$")
 	public void user_check_the_details_and_logout() throws Throwable {
 	    
@@ -255,13 +258,40 @@ Assert.assertEquals("Melbourne", getAttributeOfTheElement(po.getSp().getHotelloc
 	public void check_and_verify_that_total_price_is_being_calculated_as_price_pernight_no_ofrooms_no_of_days() throws Throwable {
 	    
 	    
+	}*/
+
+	@Given("^Click on My itinerary button$")
+	public void click_on_My_itinerary_button() throws Throwable {
+		String text=getAttributeOfTheElement(po.getSp().getBookingconfirmorderno());
+	 System.out.println(text);
+	 
+		clickOnElement(po.getSp().getMylitineray());
+		inputValuestoElement(po.getSp().getSerachroderid(), text);
+		
+		clickOnElement(po.getSp().getGo_button());
+		
+		clickOnElement(po.getSp().getCheckbox());
+		
+		List<WebElement> findElements = driver.findElements(By.tagName("(//table//table//tbody//tr//td)[5]"));
+		for (WebElement x : findElements) {
+		String value = getAttributeOfTheElement(x);
+		System.out.println(value);
+
+		}
 	}
 
-	@Then("^Verify that the details are not editable$")
+	
+	/*@Then("^Verify that the details are not editable$")
 	public void verify_that_the_details_are_not_editable() throws Throwable {
 	    
-	    
+	    String text = getAttributeOfTheElement(po.getSp().getNothingreturn());
+	   
+	if (text.contentEquals("Hote Sunshine")) {
+		System.out.println("Filed is editable");}
+	else {
+		System.out.println("Filed is not editable"+text);
 	}
+	}*/
 
 	@Then("^Verify that the details are reflected correctly as per the booking$")
 	public void verify_that_the_details_are_reflected_correctly_as_per_the_booking() throws Throwable {

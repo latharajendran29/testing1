@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3590498300,
+              "duration": 3763555100,
               "status": "passed"
             },
             "line": 6,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1237534800,
+              "duration": 1383237600,
               "status": "passed"
             },
             "line": 7,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 298807200,
+              "duration": 333108600,
               "status": "passed"
             },
             "line": 8,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 1688929300,
+              "duration": 1754926100,
               "status": "passed"
             },
             "line": 9,
@@ -89,19 +89,19 @@
     "line": 2,
     "elements": [
       {
-        "line": 31,
-        "name": "To check correct total price is being calculated as “price per night*no of days*no of rooms in Book a hotel page",
+        "line": 169,
+        "name": "To verify whether the booked itinerary details are not editable.",
         "description": "",
-        "id": "adactin-hotle-application-end-to-end-testing;to-check-correct-total-price-is-being-calculated-as-“price-per-night*no-of-days*no-of-rooms-in-book-a-hotel-page",
+        "id": "adactin-hotle-application-end-to-end-testing;to-verify-whether-the-booked-itinerary-details-are-not-editable.",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 252322600,
+              "duration": 224513800,
               "status": "passed"
             },
-            "line": 32,
+            "line": 170,
             "name": "user select option the location as \"Melbourne\"",
             "match": {
               "arguments": [
@@ -116,10 +116,10 @@
           },
           {
             "result": {
-              "duration": 213032100,
+              "duration": 213712900,
               "status": "passed"
             },
-            "line": 33,
+            "line": 171,
             "name": "user select option the hotel as \"Hotel Sunshine\"",
             "match": {
               "arguments": [
@@ -134,10 +134,10 @@
           },
           {
             "result": {
-              "duration": 225447200,
+              "duration": 217764400,
               "status": "passed"
             },
-            "line": 34,
+            "line": 172,
             "name": "user select option the roomtype as \"Standard\"",
             "match": {
               "arguments": [
@@ -152,10 +152,10 @@
           },
           {
             "result": {
-              "duration": 220992700,
+              "duration": 184326800,
               "status": "passed"
             },
-            "line": 35,
+            "line": 173,
             "name": "user select option the noofroom as \"2 - Two\"",
             "match": {
               "arguments": [
@@ -170,10 +170,10 @@
           },
           {
             "result": {
-              "duration": 419639800,
+              "duration": 393064600,
               "status": "passed"
             },
-            "line": 36,
+            "line": 174,
             "name": "user select option the checkin date as \"02/07/2019\"",
             "match": {
               "arguments": [
@@ -188,10 +188,10 @@
           },
           {
             "result": {
-              "duration": 390132400,
+              "duration": 367927600,
               "status": "passed"
             },
-            "line": 37,
+            "line": 175,
             "name": "user select the option checkoutdate as \"03/07/2019\"",
             "match": {
               "arguments": [
@@ -206,10 +206,10 @@
           },
           {
             "result": {
-              "duration": 153004400,
+              "duration": 146702700,
               "status": "passed"
             },
-            "line": 38,
+            "line": 176,
             "name": "user enter the no of adult \"1 - One\"",
             "match": {
               "arguments": [
@@ -224,10 +224,10 @@
           },
           {
             "result": {
-              "duration": 218981300,
+              "duration": 171953200,
               "status": "passed"
             },
-            "line": 39,
+            "line": 177,
             "name": "user enter th no of children \"1 - One\"",
             "match": {
               "arguments": [
@@ -242,10 +242,10 @@
           },
           {
             "result": {
-              "duration": 1298350700,
+              "duration": 1505069300,
               "status": "passed"
             },
-            "line": 40,
+            "line": 178,
             "name": "user Enter the seach button",
             "match": {
               "location": "StepDefinition.user_Enter_the_seach_button()"
@@ -254,10 +254,10 @@
           },
           {
             "result": {
-              "duration": 204783700,
+              "duration": 175107700,
               "status": "passed"
             },
-            "line": 41,
+            "line": 179,
             "name": "user select the hotel",
             "match": {
               "location": "StepDefinition.user_select_the_hotel()"
@@ -266,10 +266,10 @@
           },
           {
             "result": {
-              "duration": 1460282300,
+              "duration": 2396494000,
               "status": "passed"
             },
-            "line": 42,
+            "line": 180,
             "name": "user click on the continue button",
             "match": {
               "location": "StepDefinition.user_click_on_the_continue_button()"
@@ -278,10 +278,10 @@
           },
           {
             "result": {
-              "duration": 248275900,
+              "duration": 217308100,
               "status": "passed"
             },
-            "line": 43,
+            "line": 181,
             "name": "user enter the first name \"latha\" in htoel booking page",
             "match": {
               "arguments": [
@@ -296,10 +296,10 @@
           },
           {
             "result": {
-              "duration": 187288300,
+              "duration": 202592000,
               "status": "passed"
             },
-            "line": 44,
+            "line": 182,
             "name": "user enter the last name \"vinoth\" in hotel booking page",
             "match": {
               "arguments": [
@@ -314,10 +314,10 @@
           },
           {
             "result": {
-              "duration": 224683900,
+              "duration": 226407400,
               "status": "passed"
             },
-            "line": 45,
+            "line": 183,
             "name": "user enter the billing adrress \"villivakkam\" in hotel booking page",
             "match": {
               "arguments": [
@@ -332,10 +332,10 @@
           },
           {
             "result": {
-              "duration": 259086300,
+              "duration": 247802600,
               "status": "passed"
             },
-            "line": 46,
+            "line": 184,
             "name": "user enter the credit card no \"9587364587651234\"in the hotel booking page",
             "match": {
               "arguments": [
@@ -350,10 +350,10 @@
           },
           {
             "result": {
-              "duration": 181622500,
+              "duration": 173021900,
               "status": "passed"
             },
-            "line": 47,
+            "line": 185,
             "name": "user select the credit card type \"Master Card\" in htoel booking page",
             "match": {
               "arguments": [
@@ -368,10 +368,10 @@
           },
           {
             "result": {
-              "duration": 197438000,
+              "duration": 171962600,
               "status": "passed"
             },
-            "line": 48,
+            "line": 186,
             "name": "user select the expiry month \"April\" in the hotel booking page",
             "match": {
               "arguments": [
@@ -386,10 +386,10 @@
           },
           {
             "result": {
-              "duration": 194914400,
+              "duration": 177193100,
               "status": "passed"
             },
-            "line": 49,
+            "line": 187,
             "name": "user select the expiry year \"2022\" in the hotel booking page",
             "match": {
               "arguments": [
@@ -404,10 +404,10 @@
           },
           {
             "result": {
-              "duration": 176778200,
+              "duration": 175022000,
               "status": "passed"
             },
-            "line": 50,
+            "line": 188,
             "name": "user enter the cvv number \"123\" in the hotel booking page",
             "match": {
               "arguments": [
@@ -422,10 +422,10 @@
           },
           {
             "result": {
-              "duration": 140270800,
+              "duration": 135802300,
               "status": "passed"
             },
-            "line": 51,
+            "line": 189,
             "name": "user click on the booknow button",
             "match": {
               "location": "StepDefinition.user_click_on_the_booknow_button()"
@@ -434,27 +434,30 @@
           },
           {
             "result": {
-              "duration": 1638800,
+              "duration": 59375237200,
               "status": "passed"
             },
-            "line": 52,
-            "name": "Verify that total-price is being calculated as (price-pernight*no-ofrooms*no-of-days + 10% GST”)",
+            "line": 190,
+            "name": "Click on My itinerary button",
             "match": {
-              "arguments": [
-                {
-                  "val": "10",
-                  "offset": 87
-                }
-              ],
-              "location": "StepDefinition.verify_that_total_price_is_being_calculated_as_price_pernight_no_ofrooms_no_of_days_GST(int)"
+              "location": "StepDefinition.click_on_My_itinerary_button()"
             },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 191,
+            "name": "Verify that the details are not editable",
+            "match": {},
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 30,
-            "name": "@TC_110"
+            "line": 168,
+            "name": "@TC_115"
           }
         ]
       }
@@ -471,4 +474,5 @@
       }
     ]
   }
+] }
 ]

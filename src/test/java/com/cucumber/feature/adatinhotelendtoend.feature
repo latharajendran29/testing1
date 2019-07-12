@@ -10,7 +10,7 @@ And User click on the signIn button
 @TC_102
 Scenario: To verify whether the check-out date field accepts a later date than checkin date.
 Given user select option the location as "Melbourne" 
-And user select option the hotel as "Hotel Sunshine"
+And user select option the h -otel as "Hotel Sunshine"
 And user select option the roomtype as "Standard"
 And user select option the noofroom as "2 - Two"
 And user select option the checkin date as "02/07/2019"
